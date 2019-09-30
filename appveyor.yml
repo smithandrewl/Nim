@@ -8,8 +8,8 @@ environment:
   MINGW_ARCHIVE: mingw64-6.3.0.7z
 
   matrix:
-    - NIM_TEST_PACKAGES: false
     - NIM_TEST_PACKAGES: true
+    # - NIM_TEST_PACKAGES: false
 
 cache:
     - '%MINGW_ARCHIVE%'
