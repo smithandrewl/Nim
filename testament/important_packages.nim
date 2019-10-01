@@ -5,19 +5,16 @@ template pkg(name: string; cmd = "nimble test"; hasDeps = false; url = ""): unty
 var packages*: seq[tuple[name, cmd: string; hasDeps: bool; url: string]] = @[]
 
 
-pkg "alea", "", true
 # pkg "argparse"
 # pkg "arraymancer", "nim c -r src/arraymancer.nim", true
 # pkg "ast_pattern_matching", "nim c -r --oldgensym:on tests/test1.nim"
 pkg "asyncmysql", "", true
 # pkg "bigints"
 # pkg "binaryheap", "nim c -r binaryheap.nim"
-pkg "bitvector"
 # pkg "blscurve", "", true
 # pkg "bncurve", "", true
 # pkg "c2nim", "nim c testsuite/tester.nim"
 # pkg "cascade"
-pkg "cello", "", true
 # pkg "chroma"
 # pkg "chronicles", "nim c -o:chr -r chronicles.nim", true
 # pkg "chronos"
