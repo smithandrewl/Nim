@@ -10,10 +10,8 @@ pkg "alea", "", true
 # pkg "arraymancer", "nim c -r src/arraymancer.nim", true
 # pkg "ast_pattern_matching", "nim c -r --oldgensym:on tests/test1.nim"
 pkg "asyncmysql", "", true
-pkg "asyncpg"
 # pkg "bigints"
 # pkg "binaryheap", "nim c -r binaryheap.nim"
-pkg "bipbuffer"
 pkg "bitvector"
 # pkg "blscurve", "", true
 # pkg "bncurve", "", true
