@@ -93,7 +93,6 @@ var packages*: seq[tuple[name, cmd: string; hasDeps: bool; url: string]] = @[]
 # pkg "yaml"
 # pkg "zero_functional", "nim c -r test.nim"
 pkg "confutils", "", true
-pkg "csvtools", "nim c -r test.nim"
 pkg "litestore", "nim c -r src/litestore.nim"
 pkg "nimhdf5", "nim c -r tests/tbasic.nim", true
 pkg "nimqml", "nim c -r examples/helloworld/main.nim"
